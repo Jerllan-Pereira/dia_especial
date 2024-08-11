@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Dia dos Pais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Feliz Dia dos Pais!</h1>
+    </header>
+    <main>
+        <section class="mensagem">
+            <h2>Pai, você é o meu herói!</h2>
+            <p>Obrigado por todos os momentos de carinho, apoio e ensinamentos. Que seu dia seja tão especial quanto você é para mim. Te amo!</p>
+            
+            <div class="carrossel">
+               
+                <div class="imagens">
+                  <img src="pai.jpg" alt="Pai e filho 1" class="slide ativo">
+                    <img src="pai1.jpg" alt="Pai e filho 1" class="slide ativo">
+                    <img src="pai2.jpg" alt="Pai e filho 2" class="slide">
+                    <img src="pai3.jpg" alt="Pai e filho 3" class="slide">
+                </div>
+           
+            </div>
+
+            <button onclick="mostrarMensagem()">Clique para uma mensagem especial</button>
+            <div id="mensagemEspecial" class="mensagem-especial"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 - Com todo amor, do seu filho Jerlan Pereira Arcanjo.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
